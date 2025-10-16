@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Santorini — Greek Islands</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #9cc8ed;
+        }
+        .hero {
+            background-image: url('https://www.hostelworld.com/blog/wp-content/uploads/santorini-view.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 60vh;
+            color: #ffffff;
+        }
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.45);
+            min-height: 60vh;
+        }
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+        }
+        .gallery-img {
+            height: 160px;
+            object-fit: cover;
+        }
+        .todo-box {
+            background-color: #073c78;
+            color: white;
+            border: none;
+        }
+        footer {
+            background-color: #073c78;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Santorini</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item fw-bold"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item fw-bold"><a class="nav-link" href="#attractions">Attractions</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero d-flex align-items-center">
+        <div class="hero-overlay w-100 d-flex align-items-center">
+            <div class="container text-center">
+                <h1 class="display-4 fw-bold">Santorini, Greece</h1>
+                <p class="lead">Famous for its whitewashed houses and breathtaking sunsets.</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <section id="about" class="mb-5">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <h2><strong>About Santorini</strong></h2>
+                        <p>Santorini is one of the most stunning islands of the Cyclades in the Aegean Sea. Known for its unique caldera, volcanic history, and spectacular sea views, it attracts travelers from around the world.</p>
+                        <ul>
+                            <li>Best time to visit: Summer Days</li>
+                            <li>Famous for: Sunsets in Oia, beaches, local wine</li>
+                            <li>Transportation: Ferry from Athens or direct flights</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="attractions" class="mb-5">
+                <h2 class="mb-4">Top Attractions</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://i.ytimg.com/vi/jZU_-zdUmwY/hq720.jpg" class="card-img-top" alt="Oia Village">
+                            <div class="card-body">
+                                <h5 class="card-title">Oia Village</h5>
+                                <p class="card-text">The most iconic spot for sunset views and architecture.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi09LIdGaEtAXcdMZCCxD1IQjFl6sJzvnrnMAxBxqUXfkfYfzrmHVV8sP0NCh2j4Xm9uvdeujGWkw2gSTzJfg7sHxeCfq052ZY7CWk0CI5ZrqeWcr6maY4tBRcRhTTWOYpdVBjzojbZLcdwalixHRMlmhwLA32ygjwIbL66yFO0dH3iclJiQGhL7X5pdKw/s1600/The%20Red%20Beach-%20How%20Geological%20Processes%20Shaped%20This%20Natural%20Wonderv%20(1).webp" class="card-img-top" alt="Red Beach">
+                            <div class="card-body">
+                                <h5 class="card-title">Red Beach</h5>
+                                <p class="card-text">A unique volcanic beach surrounded by dramatic red cliffs and turquoise water.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://www.greektravel.com/greekislands/santorini/fira/fira-01.jpg" class="card-img-top" alt="Fira Town">
+                            <div class="card-body">
+                                <h5 class="card-title">Fira Town</h5>
+                                <p class="card-text">The capital of Santorini filled with shops, restaurants, and panoramic caldera views.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mb-5">
+                <h2 class="mb-4">2 Day To-Do List</h2>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="p-4 rounded todo-box">
+                            <h5>Day 1</h5>
+                            <ul>
+                                <li>Breakfast overlooking the caldera in Fira</li>
+                                <li>Explore Oia Village and take sunset photos</li>
+                                <li>Dinner with local wine and seafood</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-4 rounded todo-box">
+                            <h5>Day 2</h5>
+                            <ul>
+                                <li>Visit the Red Beach and swim in the crystal water</li>
+                                <li>Boat tour around the volcano</li>
+                                <li>Evening walk along the caldera path</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="text-white py-4">
+                <div class="container text-center">
+                    <small>Santorini Guide — Created by Sena Balcı</small>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

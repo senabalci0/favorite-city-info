@@ -1,0 +1,28 @@
+# Santorini — Greek Islands
+
+A responsive web page showcasing **Santorini, Greece**, its iconic landmarks, colors, and a suggested 2-day itinerary. Built with **HTML, CSS, and Bootstrap**.
+
+---
+
+## Features
+- **Hero Section:** Full-width background image with overlay, title, and subtitle.
+- **About Santorini:** Brief info about the island, best time to visit, and transportation tips.
+- **Top Attractions:** Bootstrap cards highlighting Oia Village, Red Beach, and Fira Town.
+- **2-Day To-Do List:** Suggested itinerary for visitors.
+- **Responsive Design:** Works on desktop, tablet, and mobile devices.
+
+---
+
+## Technologies
+- **HTML5** – Structure and content.
+- **CSS3** – Custom styling for Santorini’s theme.
+- **Bootstrap 5** – Responsive layout and components.
+- **Minimal JavaScript** – Navbar toggler for mobile view.
+
+---
+
+## How to View
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/username/favorite.city-info.git
+
